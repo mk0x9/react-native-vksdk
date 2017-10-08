@@ -124,7 +124,8 @@ RCT_EXPORT_METHOD(logout)
     credentials = @{
                     @"token" : token.accessToken,
                     @"userId" : token.userId,
-                    @"permissions" : token.permissions
+                    @"permissions" : token.permissions,
+                    @"email" : token.email
                     };
   }
   
