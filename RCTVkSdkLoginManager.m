@@ -125,7 +125,7 @@ RCT_EXPORT_METHOD(logout)
                     @"token" : token.accessToken,
                     @"userId" : token.userId,
                     @"permissions" : token.permissions,
-                    @"email" : token.email
+                    @"email" : token.email == nil ? [NSNull null] : token.email
                     };
   }
   
