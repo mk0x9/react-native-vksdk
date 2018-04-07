@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
   s.author       = { "Roman Truba" => "dreddkr@gmail.com" }
   s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/VKCOM/vk-ios-sdk.git", :tag => s.version.to_s }
-  s.source_files = 'library/source/**/*.{h,m}'
-  s.public_header_files = 'library/source/**/*.h'
-  s.resources     = "VKSdkResources.bundle"
+  s.source_files = 'vk-ios-sdk/library/source/**/*.{h,m}'
+  s.public_header_files = 'vk-ios-sdk/library/source/**/*.h'
+  s.resources     = "vk-ios-sdk/VKSdkResources.bundle"
   s.frameworks    = 'Foundation','UIKit'
   s.requires_arc = true
 end
