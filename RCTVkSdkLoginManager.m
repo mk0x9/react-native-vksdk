@@ -1,6 +1,6 @@
 #import "RCTVkSdkLoginManager.h"
-#import "VKSdk/VKSdk.h"
-#import <RCTUtils.h>
+#import "VKSdk.h"
+#import <React/RCTUtils.h>
 
 @implementation RCTVkSdkLoginManager
 {
